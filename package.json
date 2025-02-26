@@ -1,0 +1,76 @@
+{
+  "name": "express-react-boilerplate--frontend",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "/reactbp",
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@fortawesome/fontawesome-svg-core": "^6.7.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.1",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@heroicons/react": "^2.2.0",
+    "@shadcn/ui": "^0.0.4",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/node": "^16.18.40",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "antd": "^5.22.3",
+    "axios": "^1.7.7",
+    "chart.js": "^4.4.7",
+    "express-react-boilerplate--frontend": "file:",
+    "formik": "^2.4.6",
+    "luxon": "^3.4.4",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-datepicker": "^7.3.0",
+    "react-dom": "^18.2.0",
+    "react-feather": "^2.0.10",
+    "react-icons": "^5.5.0",
+    "react-modal": "^3.16.3",
+    "react-router-dom": "^6.24.1",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^9.1.3",
+    "styled-components": "^6.1.13",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "sync": "copy /Y ..\\back\\src\\common\\*.ts .\\src\\common",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "@typescript-eslint/no-unused-vars": "off"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/antd": "^1.0.4",
+    "@types/axios": "^0.14.4",
+    "@types/luxon": "^3.4.2",
+    "@types/react-modal": "^3.16.3",
+    "daisyui": "^4.12.10",
+    "tailwindcss": "^3.4.4"
+  }
+}

@@ -1,0 +1,68 @@
+/* AmazonCampaignCreate.css */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px; /* Maximum width for the form */
+    margin: 20px auto; /* Center the form horizontally */
+    padding: 20px; /* Padding around the form */
+    border: 1px solid #ccc; /* Light border around the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #ffffff; /* White background for the form */
+}
+
+h2 {
+    text-align: center; /* Center the title */
+    color: #333; /* Dark text for visibility */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+form {
+    display: flex; /* Flexbox layout for form elements */
+    flex-direction: column; /* Stack elements vertically */
+}
+
+input,
+select {
+    width: 100%; /* Full width for inputs and select */
+    padding: 10px; /* Padding inside the input fields */
+    margin: 10px 0; /* Space between fields */
+    border: 1px solid #ccc; /* Light border for inputs */
+    border-radius: 5px; /* Rounded corners for inputs */
+    font-size: 16px; /* Font size for readability */
+}
+
+input:focus,
+select:focus {
+    border-color: #4CAF50; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+
+
+
+
+button:active {
+    transform: translateY(0); /* Remove lift effect on click */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Original shadow on click */
+}
+
+.message {
+    text-align: center; /* Center the message */
+    color: #d9534f; /* Red color for error messages */
+    margin-top: 10px; /* Space above the message */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    input,
+    select,
+    button {
+        font-size: 14px; /* Slightly smaller font size */
+    }
+}
